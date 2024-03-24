@@ -711,14 +711,21 @@ main {
 }
 
 .clients-item {
-  min-width: 50%;
+  /* min-width: 50%; */
+  min-width: 30%;
   scroll-snap-align: start;
 }
 
 .clients-item img {
-  width: 100%;
-  filter: grayscale(1);
+  /* width: 100%; */
+  width: 70%;
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
+}
+.clients-item a {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .clients-item img:hover { filter: grayscale(0); }

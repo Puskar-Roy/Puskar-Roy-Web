@@ -1855,9 +1855,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+.skill-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  
+}
 
 .rounded{
   border-radius: 29px;
+}
+
+.notice{
+     font-weight: var(--fw-300);
 }
 
 @media (max-width:580px) {
